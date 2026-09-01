@@ -1,18 +1,13 @@
-# Datasets & generated data (too large for git, share via SharePoint)
 datasets/
-classified_orders.csv
 *.csv.gz
 
-# Python
 __pycache__/
 *.pyc
 .venv/
 venv/
 .conda/
 
-# Jupyter
 .ipynb_checkpoints/
 
-# Editor / OS
 .vscode/
 .DS_Store
