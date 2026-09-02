@@ -1,0 +1,13 @@
+datasets/
+*.csv.gz
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.conda/
+
+.ipynb_checkpoints/
+
+.vscode/
+.DS_Store
