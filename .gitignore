@@ -1,7 +1,10 @@
 # Datasets & generated data (too large for git, share via SharePoint)
+Datasets/
 datasets/
 classified_orders.csv
+*.csv
 *.csv.gz
+*:Zone.Identifier
 
 # Python
 __pycache__/
