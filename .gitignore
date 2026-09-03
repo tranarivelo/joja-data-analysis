@@ -1,5 +1,8 @@
+Datasets/
 datasets/
+*.csv
 *.csv.gz
+*:Zone.Identifier
 
 __pycache__/
 *.pyc
