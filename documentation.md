@@ -62,7 +62,8 @@ Chaque question suit le même déroulé : **objectif → calcul → graphique �
 
 ### Clientèle
 
-(à compléter)
+- **Un panier contient en moyenne 10 articles, mais la médiane est à 8** : quelques très gros paniers tirent la moyenne vers le haut, la médiane reflète mieux le client typique. La taille la plus fréquente (le mode) est 5 articles.
+- **Les commandes se concentrent fortement entre 7h et 16h**, avec deux jours du cycle nettement plus chargés que les autres. Instacart ne précise pas quel jour réel (lundi, mardi...) correspond à quel code, mais le profil (pic marqué sur deux jours consécutifs) évoque un comportement de week-end.
 
 ### Stock / assortiment
 
