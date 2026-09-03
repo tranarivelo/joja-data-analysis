@@ -10,7 +10,7 @@ Plan des questions traitées dans `joja_analysis.ipynb`.
 2. Quand les clients commandent-ils (jour de la semaine × heure) ?
 3. Quel produit est ajouté en premier / en dernier au panier ?
 4. À quelle fréquence un client repasse-t-il commande (nombre de commandes, jours entre deux commandes) ?
-5. Quels rayons sont les plus souvent combinés dans une même commande ?
+
 
 ### Stock / assortiment
 

@@ -44,7 +44,7 @@ Le site fournit 5 fichiers. Voici ce qu'ils contiennent :
 
 3. **Clientèle**
 
-4 questions sur l'offre du magasin : combien d'artiles les clients commandent, quand les clients commandent par commande, quels produits sont ajoutés en premier/dernier au panier, quels rayons sont les plus souvent combinés dans une même commande.
+4 questions sur l'offre du magasin : combien d'artiles les clients commandent, quand les clients commandent par commande, quels produits sont ajoutés en premier/dernier au panier, à quelle fréquence un client repasse-t-il commande.
 
 4. **Stock / assortiment**
 
@@ -64,6 +64,8 @@ Chaque question suit le même déroulé : **objectif → calcul → graphique �
 
 - **Un panier contient en moyenne 10 articles, mais la médiane est à 8** : quelques très gros paniers tirent la moyenne vers le haut, la médiane reflète mieux le client typique. La taille la plus fréquente (le mode) est 5 articles.
 - **Les commandes se concentrent fortement entre 7h et 16h**, avec deux jours du cycle nettement plus chargés que les autres. Instacart ne précise pas quel jour réel (lundi, mardi...) correspond à quel code, mais le profil (pic marqué sur deux jours consécutifs) évoque un comportement de week-end.
+- **Les produits posés en premier ou en dernier dans le panier sont surtout de gros produits non périssables** (eau, essuie-tout, produits ménagers) une fois corrigé le biais de popularité brute (bananes, avocats...) : ces produits tolèrent mieux d'être manipulés en début ou fin de préparation, contrairement aux produits fragiles (fruits, laitages).
+- **Un client passe en moyenne 16,6 commandes** (médiane 10) sur la période, avec un délai médian de **7 jours entre deux commandes** : une part significative des clients suit un rythme hebdomadaire régulier. Le pic à "30 jours" (11,5 % des délais) n'est pas un vrai comportement mais un plafond technique des données (tout délai ≥ 30 jours est enregistré comme 30).
 
 ### Stock / assortiment
 
